@@ -125,7 +125,7 @@ CleanAudio clean (audio/music) library
 
 UpdateAudio update (audio/music) library
 
-PlayMedia (reproducir/ver/poner) {Movie}
+PlayMedia (reproducir/ver/poner/iniciar) {Movie}
 ShuffleMedia shuffle {Show}
 
 WhatAlbums what albums (/do) (we/i/you) have by {Artist}
@@ -156,9 +156,9 @@ ListenToAudioPlaylistRecent (play/listen to/shuffle) recent (songs/music/audio/a
 ListenToAudioPlaylistRecent (play/listen to/shuffle) recently added (songs/music/audio/albums)
 ListenToAudioPlaylistRecent (play/listen to/shuffle) (latest/newest) (songs/music/audio/albums)
 
-WatchVideo (ver/reproducir/iniciar) {Movie}
+WatchVideo (reproducir/ver/poner/iniciar) {Movie}
 
-WatchMovie (que reproduzca/que quiero que reproduzca/que me reproduzca/de reproducir/que ponga/que quiero que ponga/que me ponga/de poner/que quiero ver/de ver) (/la) (peli/película) {Movie}
+WatchMovie (que reproduzca/que quiero que reproduzca/que me reproduzca/de reproducir/que ponga/que quiero que ponga/que me ponga/de poner/que quiero ver/de ver) (/la peli/la película) {Movie}
 
 WatchRandomMovie (play/watch) (/a) random (/{MovieGenre}) (movie/film)
 
