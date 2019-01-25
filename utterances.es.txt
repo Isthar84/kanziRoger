@@ -10,18 +10,36 @@
 # others because, in testing, Alexa appears to not fuzzy match these
 # as well as those that have no slot references.
 
-Home (/navigate/go) home
-Back (/navigate/go) back
-Up (/navigate/go) up
-Down (/navigate/go) down
-Right (/navigate/go) right
-Left (/navigate/go) left
-PageUp (/navigate/go) page up
-PageDown (/navigate/go) page down
+Home (/que vuelva/que vaya/de ir/que tiene que ir/que tiene que volver) al menú principal
+Home menú principal
+Back (/que vuelva/que vaya/de ir/que tiene que ir/que tire/que tiene que volver) (atrás/para atrás)
+Back (que vuelva/atrás)
+Up (/que vaya/de ir/que tiene que ir/que tire) (arriba/para arriba/hacia arriba)
+Up (/que suba) (/arriba/para arriba/hacia arriba)
+Up (arriba/para arriba/hacia arriba)
+Down (/que vaya/de ir/que tiene que ir/que tire) (abajo/para abajo/hacia abajo)
+Down (/que baje) (/abajo/para abajo/hacia abajo)
+Down (abajo/para abajo/hacia abajo)
+Right (/que vaya/de ir/que tiene que ir/que tire) (a la derecha/para la derecha/hacia la derecha)
+Right derecha
+Right (/que vaya/de ir/que tiene que ir/que tire) (a la izquierda/para la izquierda/hacia la izquierda)
+Right izquierda
+PageUp (que suba/que tire hacia arriba) una página
+PageUp (que vaya/que tire/que suba) una página (arriba/para arriba/hacia arriba)
+PageUp página arriba
+PageUp (que baje/que tire hacia abajo) una página
+PageUp (que vaya/que tire/que baje) una página (abajo/para abajo/hacia abajo)
+PageUp página abajo
 PageDown show more
-Select select
-Menu (/open/context) menu
+PageDown (/que quiero) ver más
+PageDown (que muestre/que me muestre/mostrar) más
+Select que quiero (seleccionar/elegir/escoger) (esto/esta/eso/esa)
+Select (seleccionar/elegir/escoger)
+Menu (que abra/que me abra/que quiero que abra/que quiero que me abra/que muestre/que me muestre/que quiero que muestre/que quiero que me muestre) el menú (/de opciones/contextual)
+Menu menú (/de opciones/contextual)
 Info (/open/show) (info/information) (/dialog/window)
+Info (que abra/que me abra/que quiero que abra/que quiero que me abra/que muestre/que me muestre/que quiero que muestre/que quiero que me muestre) (/la ventana de/la ventana con la/la) (info/información) (/dialog/window)
+Info (info/información)
 
 ViewMovies (open/go to/show) movies
 ViewMovies (show/find/search for) {MovieGenre} movies
@@ -107,7 +125,7 @@ CleanAudio clean (audio/music) library
 
 UpdateAudio update (audio/music) library
 
-PlayMedia play {Movie}
+PlayMedia (reproducir/ver/poner) {Movie}
 ShuffleMedia shuffle {Show}
 
 WhatAlbums what albums (/do) (we/i/you) have by {Artist}
@@ -138,9 +156,9 @@ ListenToAudioPlaylistRecent (play/listen to/shuffle) recent (songs/music/audio/a
 ListenToAudioPlaylistRecent (play/listen to/shuffle) recently added (songs/music/audio/albums)
 ListenToAudioPlaylistRecent (play/listen to/shuffle) (latest/newest) (songs/music/audio/albums)
 
-WatchVideo watch {Movie}
+WatchVideo (ver/reproducir/iniciar) {Movie}
 
-WatchMovie (play/watch) (/the) (movie/film) {Movie}
+WatchMovie (que reproduzca/que quiero que reproduzca/que me reproduzca/de reproducir/que ponga/que quiero que ponga/que me ponga/de poner/que quiero ver/de ver) (/la) (peli/película) {Movie}
 
 WatchRandomMovie (play/watch) (/a) random (/{MovieGenre}) (movie/film)
 
@@ -274,5 +292,5 @@ AddonGlobalSearch (find/search for) {Album}
 AddonGlobalSearch (find/search for) {Artist}
 
 AMAZON.HelpIntent qué (/cosas) (puede/puedes) hacer
-AMAZON.HelpIntent qué (/cosas) puedo (pedirte/pedirle/preguntarte)
+AMAZON.HelpIntent qué (/cosas) puedo (pedirte/pedirle/preguntarte/probar)
 AMAZON.HelpIntent cosas para probar
